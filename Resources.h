@@ -1,0 +1,36 @@
+//
+// Created by convez on 06/05/2020.
+//
+
+#ifndef SIMPLESNAKE_RESOURCES_H
+#define SIMPLESNAKE_RESOURCES_H
+// WINDOW SIZES
+#define WINDOW_WIDTH 1280
+#define WINDOW_HEIGHT 1024
+
+// GAME INFO
+#define GAME_SCORE_NORMAL 1
+#define GAME_SCORE_APPLE  1000
+#define GAME_TICK_MILLISECONDS 100
+
+//COLORS
+#define WHITE 255,255,255
+#define SIENNA 160,82,45
+#define RED 255,0,0
+
+//HUD DEFINITIONS
+#define TEXT_FONT_PATH "static/fonts/MagicDreams.ttf"
+#define TEXT_OFFSET_TOP_PIXELS 4
+#define TEXT_OFFSET_LEFT_PIXELS 8
+#define TEXT_SIZE_PIXELS 16
+#define TEXT_COLOR_RGB WHITE
+#define TEXT_GAMEOVER_COLOR_RGB RED
+
+// SPRITES
+#define WALL_SPRITE_PATH "static/sprites/wall.png"
+#define WALL_SPRITE_COLOR_RGB SIENNA
+#define SNAKE_SPRITE_SHEET_PATH "static/sprites/snake-graphics.png"
+#define APPLE_SPRITE_PATH "static/sprites/apple.png"
+#define SPRITE_TEXTURE_SIZE 32
+
+#endif //SIMPLESNAKE_RESOURCES_H
